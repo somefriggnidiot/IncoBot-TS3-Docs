@@ -1,24 +1,15 @@
 ---
-title: '!idlechecker'
+title: Idle Checker
 position: 1
 type:
-description: >-
-  Controls aspects of the Idle Checker / Idle Mover functionality. When enabled,
-  users who are idle longer than the designated time threshold will be
-  automatically moved to the specified channel.
+description: 'Minimum Permission Level: Admin'
 parameters:
   - name: action
     content: '"enable" or "disable"'
-  - name: limit
-    content: Limit the number of books returned
 content_markdown: >-
-  This call will return a maximum of 100 books
-
-  {: .info}
-
-
-  Lists all the photos you have access to. You can paginate by using the
-  parameters listed above.
+  Controls aspects of the Idle Checker / Idle Mover functionality. When enabled,
+  users who are idle longer than the designated time threshold will be
+  automatically moved to the specified channel.
 left_code_blocks:
   - code_block: >-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"},
