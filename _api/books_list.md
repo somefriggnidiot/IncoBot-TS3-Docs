@@ -1,11 +1,11 @@
 ---
-title: /books
+title: '!idlechecker'
 position: 1
 type:
 description: List all books
 parameters:
-  - name: offset
-    content: Offset the results by this amount
+  - name: action
+    content: '"enable" or "disable"'
   - name: limit
     content: Limit the number of books returned
 content_markdown: >-
