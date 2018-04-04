@@ -5,7 +5,7 @@ type:
 description: 'Minimum Permission Level: Admin'
 parameters:
   - name: action
-    content: '"enable" or "disable"'
+    content: '"enable", "disable", or "status"'
 content_markdown: >-
   Controls aspects of the Idle Checker / Idle Mover functionality. When enabled,
   users who are idle longer than the designated time threshold will be
