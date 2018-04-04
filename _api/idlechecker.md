@@ -2,17 +2,13 @@
 title: Kick
 position: 1.1
 type:
-description: Forcefully disconnects a client from the server.
+description: 'Minimum Permission Level: Moderator'
 parameters:
   - name: clientId
     content: The ID of the client being kicked.
   - name: reason
     content: The justification for kicking the client.
-content_markdown: |-
-  The book will automatically be added to your reading list
-  {: .success}
-
-  Adds a book to your collection.
+content_markdown: Forcefully disconnects a client from the server.
 left_code_blocks:
   - code_block: |-
       $.post("http://api.myapp.com/books/", {
