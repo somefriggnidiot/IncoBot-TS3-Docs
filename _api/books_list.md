@@ -2,7 +2,10 @@
 title: '!idlechecker'
 position: 1
 type:
-description: List all books
+description: >-
+  Controls aspects of the Idle Checker / Idle Mover functionality. When enabled,
+  users who are idle longer than the designated time threshold will be
+  automatically moved to the specified channel.
 parameters:
   - name: action
     content: '"enable" or "disable"'
