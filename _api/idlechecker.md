@@ -1,13 +1,13 @@
 ---
-title: /books
+title: Kick
 position: 1.1
-type: post
-description: Create Book
+type:
+description: Forcefully disconnects a client from the server.
 parameters:
-  - name: title
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
+  - name: clientId
+    content: The ID of the client being kicked.
+  - name: reason
+    content: The justification for kicking the client.
 content_markdown: |-
   The book will automatically be added to your reading list
   {: .success}
