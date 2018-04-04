@@ -14,8 +14,8 @@ left_code_blocks:
     title: Example
     language:
 right_code_blocks:
-  - code_block:
-    title:
+  - code_block: '!kick 42 Because I said so.'
+    title: Kick Example
     language:
 ---
 
