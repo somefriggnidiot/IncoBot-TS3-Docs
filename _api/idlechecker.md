@@ -8,7 +8,7 @@ parameters:
     content: The ID of the client being kicked.
   - name: reason
     content: The justification for kicking the client.
-content_markdown: Forcefully disconnects a client from the server.
+content_markdown: Forcefully disconnects a client from the server.&nbsp;
 left_code_blocks:
   - code_block: |-
       $.post("http://api.myapp.com/books/", {
