@@ -11,32 +11,15 @@ content_markdown: >-
   users who are idle longer than the designated time threshold will be
   automatically moved to the specified channel.
 left_code_blocks:
-  - code_block: >-
-      $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"},
-      function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
-  - code_block: |-
-      r = requests.get("http://api.myapp.com/books/", token="YOUR_APP_KEY")
-      print r.text
-    title: Python
-    language: python
-  - code_block: >-
-      var request = require("request");
-
-      request("http://api.myapp.com/books?token=YOUR_APP_KEY", function (error,
-      response, body) {
-
-      if (!error && response.statusCode == 200) {
-        console.log(body);
-      }
-    title: Node.js
-    language: javascript
-  - code_block: 'curl http://sampleapi.readme.com/orders?key=YOUR_APP_KEY'
-    title: Curl
-    language: bash
+  - code_block: '!idlechecker enable'
+    title: Enable Module
+    language:
+  - code_block: '!idlechecker disable'
+    title: Check Module Status
+    language:
+  - code_block: '!idlechecker status'
+    title:
+    language:
 right_code_blocks:
   - code_block:
     title:
