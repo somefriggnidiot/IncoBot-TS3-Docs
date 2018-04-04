@@ -15,10 +15,10 @@ left_code_blocks:
     title: Enable Module
     language:
   - code_block: '!idlechecker disable'
-    title: Check Module Status
+    title: Disable Module
     language:
   - code_block: '!idlechecker status'
-    title:
+    title: Check Module Status
     language:
 right_code_blocks:
   - code_block:
