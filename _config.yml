@@ -1,58 +1,40 @@
-# ----
-# Site
-
 title: Aviator
 description: Jekyll template for API documentation.
-url: https://example.com
-google_analytics_key:
+url: 'https://example.com'
+google_analytics_key: null
 permalink: pretty
-
-# -----
-# Build
-
 timezone: Etc/UTC
-
 collections:
   documentation:
     title: Documentation
     position: 1
   api:
-    title: APIs
+    title: Commands
     position: 2
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-
 exclude:
   - readme.md
   - LICENSE
-
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
       layout: default
-  -
-    scope:
-      type: "documentation"
+  - scope:
+      type: documentation
     values:
       _hide_content: true
-  -
-    scope:
-      type: "api"
+  - scope:
+      type: api
     values:
       _hide_content: true
-
-# -----------
-# CloudCannon
-
 types:
   - get
   - put
   - delete
   - post
-
 languages:
   bash: Bash
   c: C
@@ -64,7 +46,6 @@ languages:
   php: PHP
   python: Python
   ruby: Ruby
-
 _options:
   content_markdown:
     format: p h4 h5 h6
