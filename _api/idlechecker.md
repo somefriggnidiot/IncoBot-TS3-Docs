@@ -10,16 +10,9 @@ parameters:
     content: The justification for kicking the client.
 content_markdown: Forcefully disconnects a client from the server.&nbsp;
 left_code_blocks:
-  - code_block: |-
-      $.post("http://api.myapp.com/books/", {
-        "token": "YOUR_APP_KEY",
-        "title": "The Book Thief",
-        "score": 4.3
-      }, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
+  - code_block: '!kick 22 Because I said so.'
+    title: Example
+    language:
 right_code_blocks:
   - code_block: |-
       {
