@@ -10,8 +10,8 @@ parameters:
     content: The justification for kicking the client.
 content_markdown: Forcefully disconnects a client from the server.&nbsp;
 left_code_blocks:
-  - code_block: '!kick 22 Because I said so.'
-    title: Example
+  - code_block:
+    title:
     language:
 right_code_blocks:
   - code_block: '!kick 42 Because I said so.'
