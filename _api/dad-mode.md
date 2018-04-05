@@ -14,7 +14,7 @@ left_code_blocks:
   - code_block: |-
       enable
       on
-    title: '"Enable" Aliases'
+    title: Aliases - Enable
     language:
   - code_block: |-
       disable
