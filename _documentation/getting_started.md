@@ -59,7 +59,7 @@ content_markdown: >-
   `incobot-ts3-&lt;version&gt;.tar` package.
 
   2. Use `java -jar incobot-ts3-&lt;version&gt;.jar` to run the bot. (We
-  recommend using a Screen, if you're not already.)
+  recommend using a [Screen](http://aperiodic.net/screen/quick_reference), if you're not already.)
 left_code_blocks:
   - code_block:
     title:
