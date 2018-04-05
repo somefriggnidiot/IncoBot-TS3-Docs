@@ -13,19 +13,9 @@ content_markdown: >-
   Special query @me retrieves information about the user who called the command.
   Failing to provide a query results in all online users being returned.
 left_code_blocks:
-  - code_block: |-
-      $.ajax({
-        "url": "http://api.myapp.com/books/3",
-        "type": "DELETE",
-        "data": {
-          "token": "YOUR_APP_KEY"
-        },
-        "success": function(data) {
-          alert(data);
-        }
-      });
-    title: jQuery
-    language: javascript
+  - code_block: '@me (Returns information about the caller only.)'
+    title: Special Query Params
+    language:
 right_code_blocks:
   - code_block: |-
       {
