@@ -11,14 +11,26 @@ content_markdown: >-
   users who are idle longer than the designated time threshold will be
   automatically moved to the specified channel.
 left_code_blocks:
-  - code_block:
-    title: Enable Module
+  - code_block: |-
+      !idlechecker
+      !idlecheck
+      !idle
+    title: Command Aliases
     language:
-  - code_block: '!idlechecker disable'
-    title: Disable Module
+  - code_block: |-
+      disable
+      off
+    title: '"Disable" Aliases'
     language:
-  - code_block: '!idlechecker status'
-    title: Check Module Status
+  - code_block: |-
+      enable
+      on
+    title: '"Enable" Aliases'
+    language:
+  - code_block: |-
+      status
+      <none> (Default, when no arguments are used.)
+    title: '"Status" Aliases'
     language:
 right_code_blocks:
   - code_block: '!idlechecker enable'
