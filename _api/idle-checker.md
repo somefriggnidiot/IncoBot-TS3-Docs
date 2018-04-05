@@ -11,7 +11,7 @@ content_markdown: >-
   users who are idle longer than the designated time threshold will be
   automatically moved to the specified channel.
 left_code_blocks:
-  - code_block: '!idlechecker enable'
+  - code_block:
     title: Enable Module
     language:
   - code_block: '!idlechecker disable'
@@ -21,7 +21,13 @@ left_code_blocks:
     title: Check Module Status
     language:
 right_code_blocks:
-  - code_block:
-    title:
+  - code_block: '!idlechecker enable'
+    title: Enable Module
+    language:
+  - code_block: '!idlechecker disable'
+    title: Disable Module
+    language:
+  - code_block: '!idlechecker status'
+    title: Check Module Status
     language:
 ---
