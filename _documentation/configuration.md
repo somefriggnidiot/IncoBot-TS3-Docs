@@ -7,7 +7,9 @@ parameters:
 content_markdown: |-
   #### Connection Configuration
 
-  `test code script`
+  `test inline code`
+
+  normal text
 
   ```testing code block```
 left_code_blocks:
