@@ -1,6 +1,6 @@
 ---
 title: Idle Checker
-position: 1.3
+position: 1.2
 type:
 description: 'Minimum Permission Level: Admin'
 parameters:
