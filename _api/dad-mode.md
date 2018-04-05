@@ -1,15 +1,12 @@
 ---
-title: /books/:id
+title: Dad Mode
 position: 1.4
-type: put
-description: Update Book
+type:
+description: 'Minimum Permission Level: Moderator'
 parameters:
-  - name: title
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
-content_markdown: |-
-  Update an existing book in your collection.
+  - name: action
+    content: '"enable" or "disable"'
+content_markdown: Update an existing book in your collection.
 left_code_blocks:
   - code_block: |-
       $.ajax({
@@ -27,7 +24,7 @@ left_code_blocks:
     title: jQuery
     language: javascript
 right_code_blocks:
-  - code_block: |2-
+  - code_block: |-
       {
         "id": 3,
         "title": "The Book Stealer",
@@ -36,7 +33,7 @@ right_code_blocks:
       }
     title: Response
     language: json
-  - code_block: |2-
+  - code_block: |-
       {
         "error": true,
         "message": "Book doesn't exist"
