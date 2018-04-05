@@ -20,17 +20,17 @@ left_code_blocks:
   - code_block: |-
       disable
       off
-    title: '"Disable" Aliases'
+    title: Disable
     language:
   - code_block: |-
       enable
       on
-    title: '"Enable" Aliases'
+    title: Enable
     language:
   - code_block: |-
       status
       <none> (Default, when no arguments are used.)
-    title: '"Status" Aliases'
+    title: Status
     language:
 right_code_blocks:
   - code_block: '!idlechecker enable'
