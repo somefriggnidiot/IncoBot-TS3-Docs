@@ -1,6 +1,6 @@
 ---
 title: Dad Mode
-position: 1.4
+position: 1
 type:
 description: 'Minimum Permission Level: Moderator'
 parameters:
