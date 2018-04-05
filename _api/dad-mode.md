@@ -6,23 +6,21 @@ description: 'Minimum Permission Level: Moderator'
 parameters:
   - name: action
     content: '"enable" or "disable"'
-content_markdown: Update an existing book in your collection.
+content_markdown: >-
+  Enables or disables DadMode functionality. When enabled, the bot will
+  automatically respond to messages along the lines of "I'm {X}" with "Hi, {X}.
+  I'm dad!"
 left_code_blocks:
   - code_block: |-
-      $.ajax({
-        "url": "http://api.myapp.com/books/3",
-        "type": "PUT",
-        "data": {
-          "token": "YOUR_APP_KEY",
-          "score": 5.0,
-          "title": "The Book Stealer"
-        },
-        "success": function(data) {
-          alert(data);
-        }
-      });
-    title: jQuery
-    language: javascript
+      enable
+      on
+    title: '"Enable" Aliases'
+    language:
+  - code_block: |-
+      disable
+      off
+    title: Disable
+    language:
 right_code_blocks:
   - code_block: |-
       {
