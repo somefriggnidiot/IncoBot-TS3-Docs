@@ -1,24 +1,20 @@
 ---
-title: /books/:id
-position: 1.3
-type: get
-description: Get Book
+title: Ping
+position: 1.4
+type:
+description: 'Minimum Permission Level: Default'
 parameters:
   - name:
     content:
-content_markdown: |-
-  Returns a specific book from your collection
+content_markdown: >-
+  Elicits a basic response ("Pong!") from the bot to function as a basic health
+  check or open a line of communication with the query.
 left_code_blocks:
-  - code_block: |-
-      $.get("http://api.myapp.com/books/3", {
-        token: "YOUR_APP_KEY",
-      }, function(data) {
-        alert(data);
-      });
-    title: jQuery
-    language: javascript
+  - code_block:
+    title:
+    language:
 right_code_blocks:
-  - code_block: |2-
+  - code_block: |-
       {
         "id": 3,
         "title": "The Book Thief",
@@ -27,7 +23,7 @@ right_code_blocks:
       }
     title: Response
     language: json
-  - code_block: |2-
+  - code_block: |-
       {
         "error": true,
         "message": "Book doesn't exist"
