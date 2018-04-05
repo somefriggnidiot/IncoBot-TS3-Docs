@@ -17,19 +17,14 @@ left_code_blocks:
     title: Special Query Params
     language:
 right_code_blocks:
-  - code_block: |-
-      {
-        "id": 3,
-        "status": "deleted"
-      }
-    title: Response
-    language: json
-  - code_block: |-
-      {
-        "error": true,
-        "message": "Book doesn't exist"
-      }
-    title: Error
-    language: json
+  - code_block: '!userinfo TeamSpeak User'
+    title: Full Name Example
+    language:
+  - code_block: '!userinfo speak'
+    title: Partial Name Example
+    language:
+  - code_block: '!userinfo @me'
+    title: Special Query Example
+    language:
 ---
 
