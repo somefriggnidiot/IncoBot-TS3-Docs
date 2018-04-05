@@ -1,6 +1,6 @@
 ---
 title: Kick
-position: 1.1
+position: 1.3
 type:
 description: 'Minimum Permission Level: Moderator'
 parameters:
