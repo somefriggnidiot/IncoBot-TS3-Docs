@@ -22,20 +22,10 @@ left_code_blocks:
     title: Disable
     language:
 right_code_blocks:
-  - code_block: |-
-      {
-        "id": 3,
-        "title": "The Book Stealer",
-        "score": 5,
-        "dateAdded": "5/1/2015"
-      }
-    title: Response
-    language: json
-  - code_block: |-
-      {
-        "error": true,
-        "message": "Book doesn't exist"
-      }
-    title: Error
-    language: json
+  - code_block: '!dadmode enable'
+    title: Enable Module
+    language:
+  - code_block: '!dadmode disable'
+    title: Disable Module
+    language:
 ---
