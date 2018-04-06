@@ -29,7 +29,7 @@ content_markdown: >-
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
 
-  | **Field** | **Required?** | **Input Type** | **Description** | 
+  | Field | Required? | Input Type | Description | 
   | --- | --- | --- | --- | 
   | `instance-name` | Yes (Eventually) | String | The instance name of this
   bot config.<br><br>**At this time, this field is currently not
