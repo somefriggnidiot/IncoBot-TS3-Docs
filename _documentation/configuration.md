@@ -13,24 +13,24 @@ content_markdown: >-
   | `instance-name` | Yes (Eventually) | String | The instance name of this bot
   config. At this time, this field is currently not supported.&nbsp; |
 
-  | server-address | Yes | String | The address of the server to which this bot
+  | `server-address` | Yes | String | The address of the server to which this bot
   should connect. |
 
-  | server-query-port | Yes | Integer | The query port to which your bot will
+  | `server-query-port` | Yes | Integer | The query port to which your bot will
   connect. By default, most servers have this as 10011. |
 
-  | virtual-server-id | Yes | Integer | The ID of the virtual server to which
+  | `virtual-server-id` | Yes | Integer | The ID of the virtual server to which
   the bot is connecting. |
   
-  | server-query-name | Yes | String | The server query name used for 
+  | `server-query-name` | Yes | String | The server query name used for 
   authentication. |
   
-  | server-query-password | Yes | String | The server query password used for
+  | `server-query-password` | Yes | String | The server query password used for
   authentication. |
   
-  | bot-nickname | Yes | String | The display name of the bot. |
+  | `bot-nickname` | Yes | String | The display name of the bot. |
   
-  | bot-slow-mode | No | String | Whether or not the bot should throttle its
+  | `bot-slow-mode` | Yes (Eventually) | String | Whether or not the bot should throttle its
   message rate to prevent being banned for flooding the query. |
 
 
