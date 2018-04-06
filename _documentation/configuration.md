@@ -8,7 +8,7 @@ content_markdown: >-
   #### Connection Configuration
 
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | Field | Required? | Input Type | Description |
   
   | --- | --- | --- | --- |
 
