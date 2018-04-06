@@ -44,8 +44,9 @@ content_markdown: >-
   
   | --- | --- | --- | --- |
 
-  | `owner-groups` | Yes | List of Integers | The group IDs of groups
-  containing only bot owners. 
+  | `instance-name` | Yes (Eventually) | String | The instance name of this
+  bot config.<br>**At this time, this field is currently not
+  supported.&nbsp;** |
 
   | `server-address` | Yes | String | The address of the
   server to which this bot should connect. |
