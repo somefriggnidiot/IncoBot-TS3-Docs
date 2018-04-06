@@ -54,17 +54,11 @@ content_markdown: >-
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
 
-  | **Field** | **Required?** | **Input Type** | **Description** | &nbsp; | — |
-  — | — | — | &nbsp; | `owner-groups` | Yes | List of Integers | The group IDs
-  of groups containing only bot owners. | &nbsp; | `super-admin-groups` | Yes |
-  List of Integers | The group IDs of groups containing only bot super-admins. |
-  &nbsp; | `admin-groups` | Yes | List of Integers | The group IDs of groups
-  containing only bot admins. | &nbsp; | `moderator-groups` | Yes | List of
-  Integers | The group IDs of groups containing only bot moderators. | &nbsp; |
-  `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing
-  only "sponsors". | &nbsp; | `blacklisted-groups` | Yes | List of Integers |
-  The group IDs of groups containing only users who are not allowed to use bot
-  commands. |
+  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
+  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
+  | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |
+  | `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing only "sponsors". |
+  | `blacklisted-groups` | Yes | List of Integers | The group IDs of groups containing only users who are not allowed to use bot commands. |
 
 
   #### Idle Checker Configuration
