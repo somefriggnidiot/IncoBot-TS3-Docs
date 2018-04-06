@@ -42,7 +42,8 @@ content_markdown: >-
 
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `owner-groups` | Yes | List of Integers | The group IDs
+  of groups containing only bot owners. |
 
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
