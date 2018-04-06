@@ -40,7 +40,7 @@ content_markdown: >-
   #### Access Control List Configuration
 
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | Field | Required? | Input Type | Description |
   
   | --- | --- | --- | --- |
 
