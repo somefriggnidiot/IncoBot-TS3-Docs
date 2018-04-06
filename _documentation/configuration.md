@@ -31,19 +31,11 @@ content_markdown: >-
   | `server-query-password` | Yes | String | The server
   query password used for authentication. |
 
-  | `bot-nickname` | &nbsp; | &nbsp; | &nbsp; |
+  | `bot-nickname` | Yes | String | The display name of the bot. |
 
-  | `bot-slow-mode` | &nbsp; | &nbsp; | &nbsp; |  
-
-  
-
-  | Field | Required? | Input Type | Description | 
-  | --- | --- | --- | --- | 
-  | `bot-nickname` | Yes | String |
-  The display name of the bot. |<br>| `bot-slow-mode` | Yes (Eventually) |
-  String | Whether or not the bot should throttle its message rate to prevent
-  being banned for flooding the query.<br><br>**At this time, this field is not
-  currently supported.** |
+  | `bot-slow-mode` | Yes (Eventually) | String | Whether or not the bot should throttle its message rate to prevent
+  being banned for flooding the query.<br>**At this time, this field is not
+  currently supported.** |  
 
 
   #### Access Control List Configuration
