@@ -12,11 +12,11 @@ content_markdown: >-
   
   | --- | --- | --- | --- |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `instance-name` | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `server-address` | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `server-query-port` | &nbsp; | &nbsp; | &nbsp; |
 
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
   
