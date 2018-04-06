@@ -7,8 +7,6 @@ parameters:
 content_markdown: >-
   #### Overview
 
-<script type="text/javascript" src="http://136.63.94.184/s/defcadcd64650cbecb2590a4dca216e4-T/s64t2o/78001/e2b820449dba7db3e64153a92911b4be/2.0.26/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=426f4e9f"></script>
-
   Welcome to the **In**teractive **Co**nsole (Inco) bot, a general-purpose and
   server moderation program for TeamSpeak 3! Before logging issues or support
   requests, please be sure to fully read this documentation.
