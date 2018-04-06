@@ -47,10 +47,14 @@ content_markdown: >-
   | `owner-groups` | Yes | List of Integers | The group IDs
   of groups containing only bot owners. |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
+
+  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
 
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-
+  
+  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
 
