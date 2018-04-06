@@ -74,22 +74,8 @@ content_markdown: >-
 
   | `idle-ignore-groups` | Yes | List of Integers | The group IDs of groups containing only users who
   will not be moved for being idle. |
-
-  | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |
-  
-  | `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing only "sponsors". |
-  
-  | `blacklisted-groups` | Yes | List of Integers | The group IDs of groups containing only users who are not allowed to use bot commands. |
   
 
-
-  | **Field** | **Required?** | **Input Type** | **Description** | &nbsp; | — |
-  — | — | — | &nbsp; | `idle-max-time-minutes` | Yes | Integer | The time in
-  minutes after which a user will be moved if they have been idle for the entire
-  duration. | &nbsp; | `idle-destination-channel` | Yes | Integer | The ID of
-  the channel to which idle users will be moved. | &nbsp; | `idle-ignore-groups`
-  | Yes | List of Integers | The group IDs of groups containing only users who
-  will not be moved for being idle. | <br>&nbsp; |
 left_code_blocks:
   - code_block:
     title:
