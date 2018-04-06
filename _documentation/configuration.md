@@ -59,6 +59,23 @@ content_markdown: >-
 
 
   #### Idle Checker Configuration
+  
+  | Field | Required? | Input Type | Description |
+  
+  | --- | --- | --- | --- |
+
+  | `owner-groups` | Yes | List of Integers | The group IDs
+  of groups containing only bot owners. |
+
+  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
+
+  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
+
+  | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |
+  
+  | `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing only "sponsors". |
+  
+  | `blacklisted-groups` | Yes | List of Integers | The group IDs of groups containing only users who are not allowed to use bot commands. |
 
 
   | **Field** | **Required?** | **Input Type** | **Description** | &nbsp; | — |
