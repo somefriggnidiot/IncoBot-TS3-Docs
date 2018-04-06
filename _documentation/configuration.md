@@ -12,7 +12,9 @@ content_markdown: >-
   
   | --- | --- | --- | --- |
 
-  | `instance-name` | &nbsp; | &nbsp; | &nbsp; |
+  | `instance-name` | Yes (Eventually) | String | The instance name of this
+  bot config.<br><br>**At this time, this field is currently not
+  supported.&nbsp;** |
 
   | `server-address` | &nbsp; | &nbsp; | &nbsp; |
 
