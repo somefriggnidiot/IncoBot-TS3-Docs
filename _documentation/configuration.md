@@ -8,60 +8,59 @@ content_markdown: >-
   #### Connection Configuration
 
 
-  | **Field** | **Required?** | **Input Type** | **Description** |  
-  | --- | --- | --- | --- |  
-  | `instance-name` | Yes (Eventually) | String | The instance name of this bot
-  config.<br><br>**At this time, this field is currently not supported.&nbsp;**
-  |  
+  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | `server-address` | Yes | String | The address of the server to which this
-  bot should connect. |  
+  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | `server-query-port` | Yes | Integer | The query port to which your bot will
-  connect. By default, most servers have this as 10011. |  
+  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | `virtual-server-id` | Yes | Integer | The ID of the virtual server to which
-  the bot is connecting. |  
+  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | `server-query-name` | Yes | String | The server query name used for
-  authentication. |  
+  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
-  | `server-query-password` | Yes | String | The server query password used for
-  authentication. |  
 
-  | `bot-nickname` | Yes | String | The display name of the bot. |  
+  | **Field** | **Required?** | **Input Type** | **Description** | | — | — | — |
+  — | | `instance-name` | Yes (Eventually) | String | The instance name of this
+  bot config.<br><br>**At this time, this field is currently not
+  supported.&nbsp;** |<br>| `server-address` | Yes | String | The address of the
+  server to which this bot should connect. |<br>| `server-query-port` | Yes |
+  Integer | The query port to which your bot will connect. By default, most
+  servers have this as 10011. |<br>| `virtual-server-id` | Yes | Integer | The
+  ID of the virtual server to which the bot is connecting. |<br>|
+  `server-query-name` | Yes | String | The server query name used for
+  authentication. |<br>| `server-query-password` | Yes | String | The server
+  query password used for authentication. |<br>| `bot-nickname` | Yes | String |
+  The display name of the bot. |<br>| `bot-slow-mode` | Yes (Eventually) |
+  String | Whether or not the bot should throttle its message rate to prevent
+  being banned for flooding the query.<br><br>**At this time, this field is not
+  currently supported.** |
 
-  | `bot-slow-mode` | Yes (Eventually) | String | Whether or not the bot should
-  throttle its message rate to prevent being banned for flooding the
-  query.<br><br>**At this time, this field is not currently supported.** |  
-  
+
   #### Access Control List Configuration
 
-  | **Field** | **Required?** | **Input Type** | **Description** |  
-  | --- | --- | --- | --- |  
-  | `owner-groups` | Yes | List of Integers | The group IDs of groups containing only bot owners. |  
 
-  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |  
+  | **Field** | **Required?** | **Input Type** | **Description** | | — | — | — |
+  — | | `owner-groups` | Yes | List of Integers | The group IDs of groups
+  containing only bot owners. |<br>| `super-admin-groups` | Yes | List of
+  Integers | The group IDs of groups containing only bot super-admins. |<br>|
+  `admin-groups` | Yes | List of Integers | The group IDs of groups containing
+  only bot admins. |<br>| `moderator-groups` | Yes | List of Integers | The
+  group IDs of groups containing only bot moderators. |<br>| `sponsor-groups` |
+  Yes | List of Integers | The group IDs of groups containing only "sponsors".
+  |<br>| `blacklisted-groups` | Yes | List of Integers | The group IDs of groups
+  containing only users who are not allowed to use bot commands. |
 
-  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |  
 
-  | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |  
-
-  | `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing only "sponsors". |  
-
-  | `blacklisted-groups` | Yes | List of Integers | The group IDs of groups containing only users who are not allowed to use bot commands. |  
-  
   #### Idle Checker Configuration
-  
-  | **Field** | **Required?** | **Input Type** | **Description** |  
-  | --- | --- | --- | --- |  
-  | `idle-max-time-minutes` | Yes | Integer | The time in minutes after which a user will be moved if they have been idle for the entire duration. |  
 
-  | `idle-destination-channel` | Yes | Integer | The ID of the channel to which idle users will be moved. |  
 
-  | `idle-ignore-groups` | Yes | List of Integers | The group IDs of groups containing only users who will not be moved for being idle. |  
-
-  &nbsp;
+  | **Field** | **Required?** | **Input Type** | **Description** | | — | — | — |
+  — | | `idle-max-time-minutes` | Yes | Integer | The time in minutes after
+  which a user will be moved if they have been idle for the entire duration.
+  |<br>| `idle-destination-channel` | Yes | Integer | The ID of the channel to
+  which idle users will be moved. |<br>| `idle-ignore-groups` | Yes | List of
+  Integers | The group IDs of groups containing only users who will not be moved
+  for being idle. |<br>&nbsp;
 left_code_blocks:
   - code_block:
     title:
