@@ -9,7 +9,7 @@ content_markdown: >-
 
 
   | **Field** | **Required?** | **Input Type** | **Description** |
-
+  | --- | --- | --- | --- |
   | `instance-name` | Yes (Eventually) | String | The instance name of this bot
   config.<br><br>**At this time, this field is currently not supported.&nbsp;**
   |
@@ -34,6 +34,22 @@ content_markdown: >-
   | `bot-slow-mode` | Yes (Eventually) | String | Whether or not the bot should
   throttle its message rate to prevent being banned for flooding the
   query.<br><br>**At this time, this field is not currently supported.** |
+  
+  #### Access Control List Configuration
+
+  | **Field** | **Required?** | **Input Type** | **Description** |
+  | --- | --- | --- | --- |
+  | `owner-groups` | Yes | List of Integers | The group IDs of groups containing only bot owners. |
+
+  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
+
+  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
+
+  | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |
+
+  | `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing only "sponsors". |
+
+  | `blacklisted-groups` | Yes | List of Integers | The group IDs of groups containing only users who are not allowed to use bot commands. |
 
 
   &nbsp;
