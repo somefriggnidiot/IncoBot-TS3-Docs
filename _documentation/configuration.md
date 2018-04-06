@@ -65,8 +65,9 @@ content_markdown: >-
   
   | --- | --- | --- | --- |
 
-  | `owner-groups` | Yes | List of Integers | The group IDs
-  of groups containing only bot owners. |
+  | `idle-max-time-minutes` | Yes | Integer | The time in
+  minutes after which a user will be moved if they have been idle for the entire
+  duration. |
 
   | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
 
