@@ -9,6 +9,8 @@ content_markdown: >-
 
 
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  
+  | --- | --- | --- | --- |
 
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
@@ -19,8 +21,9 @@ content_markdown: >-
   | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 
 
-  | **Field** | **Required?** | **Input Type** | **Description** | | — | — | — |
-  — | | `instance-name` | Yes (Eventually) | String | The instance name of this
+  | **Field** | **Required?** | **Input Type** | **Description** | 
+  | — | — | — | — | 
+  | `instance-name` | Yes (Eventually) | String | The instance name of this
   bot config.<br><br>**At this time, this field is currently not
   supported.&nbsp;** |<br>| `server-address` | Yes | String | The address of the
   server to which this bot should connect. |<br>| `server-query-port` | Yes |
