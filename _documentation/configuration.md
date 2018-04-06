@@ -25,9 +25,11 @@ content_markdown: >-
   | `virtual-server-id` | Yes | Integer | The
   ID of the virtual server to which the bot is connecting. |
   
-  | `server-query-name` | &nbsp; | &nbsp; | &nbsp; |
+  | `server-query-name` | Yes | String | The server query name used for
+  authentication. |
 
-  | `server-query-password` | &nbsp; | &nbsp; | &nbsp; |
+  | `server-query-password` | Yes | String | The server
+  query password used for authentication. |
 
   | `bot-nickname` | &nbsp; | &nbsp; | &nbsp; |
 
@@ -37,13 +39,7 @@ content_markdown: >-
 
   | Field | Required? | Input Type | Description | 
   | --- | --- | --- | --- | 
- | `server-query-port` | Yes |
-  Integer | The query port to which your bot will connect. By default, most
-  servers have this as 10011. |<br>| `virtual-server-id` | Yes | Integer | The
-  ID of the virtual server to which the bot is connecting. |<br>|
-  `server-query-name` | Yes | String | The server query name used for
-  authentication. |<br>| `server-query-password` | Yes | String | The server
-  query password used for authentication. |<br>| `bot-nickname` | Yes | String |
+  | `bot-nickname` | Yes | String |
   The display name of the bot. |<br>| `bot-slow-mode` | Yes (Eventually) |
   String | Whether or not the bot should throttle its message rate to prevent
   being banned for flooding the query.<br><br>**At this time, this field is not
