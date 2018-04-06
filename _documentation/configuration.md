@@ -19,9 +19,11 @@ content_markdown: >-
   | `server-address` | Yes | String | The address of the
   server to which this bot should connect. |
 
-  | `server-query-port` | Yes | &nbsp; | &nbsp; |
+  | `server-query-port` | Yes | Integer | The query port to which your bot will connect. By default, most
+  servers have this as 10011. |
 
-  | `virtual-server-id` | Yes | &nbsp; | &nbsp; |
+  | `virtual-server-id` | Yes | Integer | The
+  ID of the virtual server to which the bot is connecting. |
   
   | `server-query-name` | &nbsp; | &nbsp; | &nbsp; |
 
@@ -35,8 +37,7 @@ content_markdown: >-
 
   | Field | Required? | Input Type | Description | 
   | --- | --- | --- | --- | 
-  | `server-address` | Yes | String | The address of the
-  server to which this bot should connect. |<br>| `server-query-port` | Yes |
+ | `server-query-port` | Yes |
   Integer | The query port to which your bot will connect. By default, most
   servers have this as 10011. |<br>| `virtual-server-id` | Yes | Integer | The
   ID of the virtual server to which the bot is connecting. |<br>|
