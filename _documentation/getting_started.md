@@ -41,7 +41,7 @@ content_markdown: >-
   {: .warning}
 
 
-  1. Open the folder where you've saved the `incobot-ts3-&lt;version&gt;.tar`
+  1. Open the folder where you've saved the `incobot-ts3-<version>.tar`
   contents.
 
   2. In the address bar where the path is shown, click once on it to highlight
@@ -49,17 +49,18 @@ content_markdown: >-
   open up to your current location.
 
   3. In the command prompt window, use the following command as appropriate for
-  your IncoBot version: `java -jar incobot-ts3-&lt;version&gt;.jar`
+  your IncoBot version: `java -jar incobot-ts3-<version>.jar`
 
 
   **Ubuntu:**
 
 
   1. Navigate to the location where you saved the contents of the
-  `incobot-ts3-&lt;version&gt;.tar` package.
+  `incobot-ts3-<version>.tar` package.
 
-  2. Use `java -jar incobot-ts3-&lt;version&gt;.jar` to run the bot. (We
-  recommend using a [Screen](http://aperiodic.net/screen/quick_reference), if you're not already.)
+  2. Use `java -jar incobot-ts3-<version>.jar` to run the bot. (We recommend
+  using a [Screen](http://aperiodic.net/screen/quick_reference), if you're not
+  already.)
 left_code_blocks:
   - code_block:
     title:
