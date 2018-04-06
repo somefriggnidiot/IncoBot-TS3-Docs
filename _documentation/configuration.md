@@ -51,17 +51,10 @@ content_markdown: >-
 
   | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-  
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-  
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-
-
-  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
-  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
   | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |
+  
   | `sponsor-groups` | Yes | List of Integers | The group IDs of groups containing only "sponsors". |
+  
   | `blacklisted-groups` | Yes | List of Integers | The group IDs of groups containing only users who are not allowed to use bot commands. |
 
 
