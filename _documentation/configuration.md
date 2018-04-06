@@ -18,15 +18,15 @@ content_markdown: >-
 
   | `server-query-port` | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `virtual-server-id` | &nbsp; | &nbsp; | &nbsp; |
   
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `server-query-name` | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `server-query-password` | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+  | `bot-nickname` | &nbsp; | &nbsp; | &nbsp; |
 
-  | &nbsp; | &nbsp; | &nbsp; | &nbsp; |  
+  | `bot-slow-mode` | &nbsp; | &nbsp; | &nbsp; |  
 
   
 
