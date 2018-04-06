@@ -4,14 +4,26 @@ position: 2
 parameters:
   - name:
     content:
-content_markdown: |-
+content_markdown: >-
   #### Connection Configuration
 
-  `test inline code`
 
-  normal text
+  | **Field** | **Required?** | **Input Type** | **Description** |
 
-  ```testing code block```
+  | `instance-name` | Yes (Eventually) | String | The instance name of this bot
+  config. At this time, this field is currently not supported.&nbsp; |
+
+  | server-address | Yes | String | The address of the server to which this bot
+  should connect. |
+
+  | server-query-port | Yes | Integer | The query port to which your bot will
+  connect. By default, most servers have this as 10011. |
+
+  | virtual-server-id | Yes | Integer | The ID of the virtual server to which
+  the bot is connecting. |
+
+
+  &nbsp;
 left_code_blocks:
   - code_block:
     title:
