@@ -69,9 +69,11 @@ content_markdown: >-
   minutes after which a user will be moved if they have been idle for the entire
   duration. |
 
-  | `super-admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot super-admins. |
+  | `idle-destination-channel` | Yes | Integer | The ID of
+  the channel to which idle users will be moved. |
 
-  | `admin-groups` | Yes | List of Integers | The group IDs of groups containing only bot admins. |
+  | `idle-ignore-groups` | Yes | List of Integers | The group IDs of groups containing only users who
+  will not be moved for being idle. |
 
   | `moderator-groups` | Yes | List of Integers | The group IDs of groups containing only bot moderators. |
   
