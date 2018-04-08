@@ -1,5 +1,5 @@
 ---
-title: Get Help
+title: Getting Help
 position: 3
 parameters:
   - name:
